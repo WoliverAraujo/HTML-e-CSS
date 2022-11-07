@@ -1,3 +1,6 @@
-ul li:after {
-    content: ' - '
+p::first-letter {
+    font-size: 50px;
+    display: block;
+    margin: 0 10px 10px 0;
+    float: top;
 }
