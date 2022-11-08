@@ -1,33 +1,14 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-html {
-    font-size: 62.5%;
-    scroll-behavior: smooth;
-}
-
-.pai {
-    width: 50rem;
-    height: 100vh;
-    background: darkcyan;
-    overflow: hidden;
-}
-.pai > div {
-    width: 50%;
-    height: 50rem;
-    background: blueviolet;
-     overflow: hidden;
-}
-
 p {
-    font-size: 1.6rem;
-}
-
-.color-one{
-    background: darkgoldenrod;
-}
-
-.color-two {
-    background: darkgreen;
+    font-size: 20px;
+    /*font-style: italic;
+    font-weight: bold;
+    direction: rtl;
+    letter-spacing: 1px;
+    word-spacing: 5%;
+    line-height: 20px;*/
+    text-align: left;
+    /*text-decoration: underline;*/
+    text-indent: 50px;
+    text-shadow: -1px 1px 10px darkcyan;
+   text-transform: capitalize;     
 }
