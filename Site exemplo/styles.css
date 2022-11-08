@@ -1,28 +1,33 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
-.grid {
-    padding: 15px;
+.pai {
+    width: 50rem;
+    height: 100vh;
+    background: darkcyan;
+    overflow: hidden;
+}
+.pai > div {
+    width: 50%;
+    height: 50rem;
+    background: blueviolet;
+     overflow: hidden;
 }
 
-.grid ::after {
-    content: '';
-    display: block;
-    clear: both;
+p {
+    font-size: 1.6rem;
 }
 
-.grid .col {
-    width: 300px;
-    height: 300px;
-    float: left;
-    padding: 15px;
+.color-one{
+    background: darkgoldenrod;
 }
 
-.grid .col-content {
-    width: 100%;
-    height: 100%;
-    background: #ffcc00;
+.color-two {
+    background: darkgreen;
 }
