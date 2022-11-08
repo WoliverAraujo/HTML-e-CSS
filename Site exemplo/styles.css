@@ -6,6 +6,13 @@
     background: red;
 }
 
-.p {
+#p.p {
     background: yellowgreen;
+}
+
+p#p.p {
+    background-color: aqua;
+}
+body#b.bclass p#p.p::selection {
+    background-color: darkgoldenrod;
 }
