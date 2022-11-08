@@ -1,18 +1,10 @@
-/*
-
-
-*/
-#p {
-    background: red;
+#texto {
+    font-family: sans-serif;
+    color: darkblue;
+    font-size: 70px;
 }
 
-#p.p {
-    background: yellowgreen;
-}
-
-p#p.p {
-    background-color: aqua;
-}
-body#b.bclass p#p.p::selection {
-    background-color: darkgoldenrod;
+p {
+    font-size: inherit;
+    color: initial;
 }
