@@ -5,19 +5,15 @@
 }
 .flex-container {
     display: flex;
-    flex-direction: row; /*column deixa os itens um embaixo do outro e row, um na frente do outro https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox/flex_terms.png*/
-    justify-content: center; /*Alinhamento do item*/
-    align-items: stretch;/* Este é o alinhamento do  texto do item em relação eu eixo horizontal*/
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: flex-start;
     background: darkcyan;
-    height: 500px;
-    text-align: center; /* Alinhamento do item em relação ao eixo vertical*/
+    height: 640px;
 }
 
 .flex-item {
-    width: 100%;
+    width: 33.33%;
+    color: white;
     background: darkgoldenrod;
-    margin: 10px;
-}
-.flex-item:nth-child(3) {
-    font-size: 30px;
 }
