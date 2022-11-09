@@ -4,19 +4,35 @@
     box-sizing: border-box;
 }
 
-.flex-container {
-    display: flex; /* display: flex - se comporta como bloco*/
-    justify-content: space-between;
+body {
+    font-size: 24px;
+}
+
+p {
+    margin: 0 0 24px;
+}
+
+.two-columns {
+    display: flex;
+}
+
+.two-columns .col {
+    display: flex;
+    flex-direction: column;
+    background: lightcoral;
+    margin: 15px;
+    padding: 30px;
+}
+
+.gallery {
     flex-flow: row wrap;
-    background: darkcyan;
+    display: flex;
 }
 
-.flex-item {
-    width: 32%;
-    height: 200px;
-    color: white;
-    background: darkgoldenrod;
-    margin: 10px
+.gallery .img {
+    flex: 1 0 20%;
+    width: 100%;
+    height: 50px;
+    background: rebeccapurple;
+    margin: 10px;
 }
-
-
