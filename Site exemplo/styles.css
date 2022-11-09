@@ -92,12 +92,12 @@ body {
     }
 }
 
-@media all and (min-width: 769px) and (max-width: 800px){
+@media all and (min-width: 769px) and (max-width: 1200px){
     .grid .col {
         width: 33.33%;
     }
 }
-@media all and (min-windth: 1200px) {
+@media all and (min-width: 1201px) {
     .grid .col {
         width: 25%;
     }
