@@ -3,17 +3,20 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 .flex-container {
-    display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    align-items: flex-start;
+    display: flex; /* display: flex - se comporta como bloco*/
+    justify-content: space-between;
+    flex-flow: row wrap;
     background: darkcyan;
-    height: 640px;
 }
 
 .flex-item {
-    width: 33.33%;
+    width: 32%;
+    height: 200px;
     color: white;
     background: darkgoldenrod;
+    margin: 10px
 }
+
+
