@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+   box-sizing: border-box;
 }
 
 html {
@@ -22,11 +23,6 @@ h4,
 h5,
 h6 {
     font-family: 'Montserrat', sans-serif;
-}
-
-h1 {
-    font-size: 6rem;
-    text-transform: uppercase;
 }
 
 h1 {
